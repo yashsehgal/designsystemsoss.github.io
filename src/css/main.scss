@@ -1,0 +1,26 @@
+@import url('Header/Header.css');
+@import url('Footer/Footer.css');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /// Google Fonts - Roboto (sans-serif)
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'); /// awesome fonts-icons
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /// Google Fonts - Poppins (sans-serif)
+
+
+:root {
+  --tds-font-roboto: "Roboto", sans-serif;
+  --tds-font-poppins: "Poppins", sans-serif;
+
+  --tds-black: #292929;
+}
+
+body {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
