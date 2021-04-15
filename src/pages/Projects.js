@@ -70,10 +70,10 @@ const Projects = () => {
           </div>
 
           </div> {/** End of Project Card Component */}
+          
 
         
         </div> {/** End of Project Layer */}
-
 
         {/* Layer Container - Flex Cards */}
         <div className="project-layer">
@@ -137,12 +137,11 @@ const Projects = () => {
           </div>
 
           </div> {/** End of Project Card Component */}
+          
 
         
         </div> {/** End of Project Layer */}
 
-
-        <div className="project-layer"></div>
       </div>
 
     </div>
