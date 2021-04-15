@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Router>
+        <Route path="/community" exact component={Home} />
         <Route path="/" exact component={Home} />
       </Router>
       <Footer />
