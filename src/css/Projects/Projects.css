@@ -13,8 +13,12 @@
 }
 
 .project-card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
   margin-right: auto;
   margin-left: auto;
+  width: 30%;
   border-radius: 8px;
   -webkit-box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.244);
           box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.244);
@@ -22,7 +26,7 @@
 
 .project-image-container {
   width: 100%;
-  background-color: black;
+  background-color: var(--tds-black);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   height: 100px;
@@ -49,7 +53,7 @@
 .project-tech-stack {
   color: #0085d0;
   font-family: var(--tds-font-roboto);
-  margin-left: 12em;
+  float: right;
 }
 
 .project-card-bottom-layer {
@@ -59,5 +63,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#project-button {
+  padding: 0.6em;
+  margin-right: 1em;
 }
 /*# sourceMappingURL=Projects.css.map */
