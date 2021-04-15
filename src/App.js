@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Router>
         <Route path="/community" exact component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/community/projects" exact component={Projects} />
       </Router>
       <Footer />
