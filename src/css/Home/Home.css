@@ -1,48 +1,42 @@
+.Home {
+  margin-top: 14em;
+}
+
 .home-tagline {
   font-family: var(--tds-font-poppins);
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  padding: 0.5em;
   text-align: center;
-  font-size: 36px;
+  font-size: 48px;
 }
 
-.buttons {
-  margin-left: 38em;
+.button_layer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.Home-btn1 {
-  margin: 1em;
-  padding: 1em;
-  color: white;
+.home-about-section {
   background-color: var(--tds-black);
-  font-family: var(--tds-font-poppins);
-  border: none;
+  padding: 5em;
+  margin-top: 20em;
 }
 
-.Home-btn2 {
-  margin: 1em;
-  padding: 1.1em;
-  font-family: var(--tds-font-poppins);
-  border: solid 1px var(--tds-black);
-  background-color: white;
-}
-
-.about {
-  background-color: var(--tds-black);
-  padding: 10em;
-}
-
-h3 {
+.headline {
   color: white;
   font-family: var(--tds-font-poppins);
 }
 
-.Home-about_content {
+.home-about-content {
   color: white;
-  text-align: justify;
-  padding: 1em;
-  float: left;
+  font-family: var(--tds-font-roboto);
+  width: 40%;
+}
+
+.home-about-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
 }
 /*# sourceMappingURL=Home.css.map */
