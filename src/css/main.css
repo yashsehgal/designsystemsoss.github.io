@@ -1,6 +1,7 @@
 @import url("Header/Header.css");
 @import url("Footer/Footer.css");
 @import url("Home/Home.css");
+@import url("Projects/Projects.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -19,5 +20,12 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.page-headline {
+  color: var(--tds-black);
+  font-family: var(--tds-font-poppins);
+  font-weight: 600;
+  font-size: 42px;
 }
 /*# sourceMappingURL=main.css.map */

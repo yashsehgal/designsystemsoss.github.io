@@ -18,7 +18,7 @@ const Footer = () => {
               <a href="/" className="footer-option-link">Contributing</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">GitHub</a>
+              <a href="https://www.github.com/DesignSystemsOSS" className="footer-option-link">GitHub</a>
             </li>
             <li className="footer-option">
               <a href="/" className="footer-option-link">Discord Server</a>
@@ -32,10 +32,10 @@ const Footer = () => {
           <p className="footer-option-title">Site Map</p>
           <ul className="footer-option-list">
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Home</a>
+              <a href="/community" className="footer-option-link">Home</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Our Projects</a>
+              <a href="/community/projects" className="footer-option-link">Our Projects</a>
             </li>
             <li className="footer-option">
               <a href="/" className="footer-option-link">Events</a>
@@ -44,7 +44,7 @@ const Footer = () => {
               <a href="/" className="footer-option-link">Join The DesignSystems</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">GitHub</a>
+              <a href="https://www.github.com/DesignSystemsOSS" className="footer-option-link">GitHub</a>
             </li>
           </ul>
         </div>
@@ -88,7 +88,7 @@ const Footer = () => {
         {/* Social Media Icons : Container */}
         <div className="footer-lower-right-container">
           
-          <a href="" className="footer-lower-social-icon-link">
+          <a href="https://www.linkedin.com/company/designsystemsoss" className="footer-lower-social-icon-link">
             <i className="fab fa-linkedin" id="footer-social-icons"></i>
           </a>
 
@@ -96,7 +96,7 @@ const Footer = () => {
             <i className="fab fa-discord" id="footer-social-icons"></i>
           </a>
 
-          <a href="" className="footer-lower-social-icon-link">
+          <a href="https://www.github.com/DesignSystemsOSS" className="footer-lower-social-icon-link">
             <i className="fab fa-github" id="footer-social-icons"></i>
           </a>
 
@@ -105,7 +105,7 @@ const Footer = () => {
 
       </div>      { /** End of Footer Lower Container */  }
         <p className="footer-credits-line">The Website is developed with 💜 by 
-          <a id="footer-website-link" href="/">
+          <a id="footer-website-link" href="/community">
             The DesignSystems Community
           </a>
         </p>
