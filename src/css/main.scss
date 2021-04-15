@@ -1,6 +1,6 @@
 @import url('Header/Header.css');
 @import url('Footer/Footer.css');
-@import url('ProjectCards/ProjectCards.css');
+@import url('Projects/Projects.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /// Google Fonts - Roboto (sans-serif)
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'); /// awesome fonts-icons
@@ -23,4 +23,11 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.page-headline {
+  color: var(--tds-black);
+  font-family: var(--tds-font-poppins);
+  font-weight: 600;
+  font-size: 42px;
 }
