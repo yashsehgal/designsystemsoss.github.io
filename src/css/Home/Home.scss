@@ -1,43 +1,40 @@
-.home-tagline {
-  font-family: var(--tds-font-poppins);
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  padding: 0.5em;
-  text-align: center;
-  font-size: 36px;
-  
+
+.Home {
+  margin-top: 14em;
 }
 
-.buttons{
-    margin-left: 38em;
+.home-tagline {
+  font-family: var(--tds-font-poppins);
+  text-align: center;
+  font-size: 48px;
 }
-.Home-btn1{
-    margin: 1em;
-    padding: 1em;
-    color: white;
-    background-color: var(--tds-black);
-    font-family: var(--tds-font-poppins);
-    border:none ;
+
+.button_layer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
 }
-.Home-btn2{
-    margin: 1em;
-    padding: 1.1em;
-    font-family: var(--tds-font-poppins);
-    border: solid 1px var(--tds-black);
-    background-color: white;
+
+.home-about-section {
+  background-color: var(--tds-black);
+  padding: 5em;
+  margin-top: 20em;
 }
-.about{
-    background-color: var(--tds-black);
-    padding: 10em;
+
+.headline {
+  color: white;
+  font-family: var(--tds-font-poppins);
 }
-h3{
-    color: white;
-    font-family: var(--tds-font-poppins);
+
+.home-about-content{
+  color: white;
+  font-family: var(--tds-font-roboto);
+  width: 40%;
 }
- .Home-about_content{
-    color: white;
-    text-align: justify;
-    padding: 1em;
-    float: left;
+
+.home-about-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
 }

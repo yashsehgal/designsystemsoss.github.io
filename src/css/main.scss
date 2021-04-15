@@ -32,3 +32,30 @@ a {
   font-weight: 600;
   font-size: 42px;
 }
+
+button:focus, input:focus {
+  outline: none;
+}
+
+.PrimaryButton {
+  margin: 1em;
+  padding: 1em;
+  color: white;
+  background-color: var(--tds-black);
+  font-family: var(--tds-font-poppins);
+  border: none;
+  border-radius: 4px;
+}
+
+.SecondaryButton {
+  margin: 1em;
+  padding: 1em;
+  font-family: var(--tds-font-poppins);
+  border: solid 1px var(--tds-black);
+  background-color: white;
+  border-radius: 4px;
+}
+
+.PrimaryButton:hover, .SecondaryButton:hover {
+  filter: brightness(90%);
+}
