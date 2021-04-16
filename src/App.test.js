@@ -22,7 +22,7 @@ test('renders learn react link', () => {
 
 test('renders learn react link', () => {
   render(<Header />);
-  const linkElement = screen.getByText(/Join The DesignSystems/i);
+  const linkElement = screen.getByText(/Join TDS/i);
   expect(linkElement).toBeInTheDocument();
 });
 
