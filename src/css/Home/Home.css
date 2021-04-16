@@ -31,18 +31,25 @@
 
 .about {
   background-color: var(--tds-black);
-  padding: 10em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3em;
+  margin-top: 6em;
 }
 
-h3 {
+a.about_headline {
   color: white;
   font-family: var(--tds-font-poppins);
+  padding: 2em;
+  margin: 1em;
+  font-size: 28px;
 }
 
 .Home-about_content {
   color: white;
   text-align: justify;
+  font-family: var(--tds-font-poppins);
   padding: 1em;
-  float: left;
+  max-width: 600px;
 }
 /*# sourceMappingURL=Home.css.map */

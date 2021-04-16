@@ -8,7 +8,7 @@ const Home = () => {
 <button className="Home-btn2">join now</button>
 </div>
 <div className="about">
-<h3>What is The DesignSystems?</h3>
+<a className="about_headline">What is The DesignSystems?</a>
 <p className="Home-about_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
  do eiusmod tempor incididunt ut labore et dolore magna 
 aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
