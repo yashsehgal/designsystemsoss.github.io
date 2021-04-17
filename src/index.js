@@ -3,25 +3,24 @@ import ReactDOM from 'react-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import App from './App';
 import Projects from './pages/Projects';
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import { Route, Switch, HashRouter as Router } from 'react-router-dom'
+// import { Route, Switch, HashRouter as Router } from 'react-router-dom'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    {/* <Header />
     <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/community/projects/#/" exact component={Projects} />
-
-        {/* Setting up the 404 page on GitHub Pages */}
-        {/* <Route component={PageNotFound} status={404} /> */}
+        <Route exact path="/?id=projects/#/" exact component={Projects} />
       </Switch>
     </Router>
-    <Footer />
+    <Footer /> */}
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
