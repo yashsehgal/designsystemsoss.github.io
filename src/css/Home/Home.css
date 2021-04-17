@@ -23,11 +23,6 @@
   margin-top: 20em;
 }
 
-.headline {
-  color: white;
-  font-family: var(--tds-font-poppins);
-}
-
 .home-about-content {
   color: white;
   font-family: var(--tds-font-roboto);
@@ -38,5 +33,25 @@
   margin-right: auto;
   margin-left: auto;
   max-width: 1400px;
+}
+
+.home-projects-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+}
+
+.home-project-cards-layer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-project-card {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  -webkit-box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.244);
+          box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.244);
 }
 /*# sourceMappingURL=Home.css.map */
