@@ -59,3 +59,9 @@ button:focus, input:focus {
 .PrimaryButton:hover, .SecondaryButton:hover {
   filter: brightness(90%);
 }
+
+.headline {
+  color: white;
+  font-family: var(--tds-font-poppins);
+  margin: 0;
+}
