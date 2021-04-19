@@ -57,4 +57,10 @@ button:focus, input:focus {
   -webkit-filter: brightness(90%);
           filter: brightness(90%);
 }
+
+.headline {
+  color: white;
+  font-family: var(--tds-font-poppins);
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */

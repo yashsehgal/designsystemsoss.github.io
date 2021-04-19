@@ -22,7 +22,7 @@ const Projects = () => {
             <p className="project-desc">A CSS Library to solve all your frontend problems</p>
 
             <div className="project-card-bottom-layer">
-              <input type="button" id="project-button" value="Open on GitHub" />
+              <input type="button" id="project-button" className="PrimaryButton" value="Open on GitHub" />
               <p className="project-tech-stack">
                 CSS/SCSS
               </p>
@@ -42,7 +42,7 @@ const Projects = () => {
             <p className="project-desc">A CSS Library to solve all your frontend problems</p>
 
             <div className="project-card-bottom-layer">
-              <input type="button" id="project-button" value="Open on GitHub" />
+                <input type="button" id="project-button" className="PrimaryButton" value="Open on GitHub" />
               <p className="project-tech-stack">
                 CSS/SCSS
               </p>
@@ -62,7 +62,7 @@ const Projects = () => {
             <p className="project-desc">A CSS Library to solve all your frontend problems</p>
 
             <div className="project-card-bottom-layer">
-              <input type="button" id="project-button" value="Open on GitHub" />
+                <input type="button" id="project-button" className="PrimaryButton" value="Open on GitHub" />
               <p className="project-tech-stack">
                 CSS/SCSS
               </p>
@@ -89,7 +89,7 @@ const Projects = () => {
             <p className="project-desc">A CSS Library to solve all your frontend problems</p>
 
             <div className="project-card-bottom-layer">
-              <input type="button" id="project-button" value="Open on GitHub" />
+                <input type="button" id="project-button" className="PrimaryButton" value="Open on GitHub" />
               <p className="project-tech-stack">
                 CSS/SCSS
               </p>
@@ -109,7 +109,7 @@ const Projects = () => {
             <p className="project-desc">A CSS Library to solve all your frontend problems</p>
 
             <div className="project-card-bottom-layer">
-              <input type="button" id="project-button" value="Open on GitHub" />
+                <input type="button" id="project-button" className="PrimaryButton" value="Open on GitHub" />
               <p className="project-tech-stack">
                 CSS/SCSS
               </p>
@@ -129,7 +129,7 @@ const Projects = () => {
             <p className="project-desc">A CSS Library to solve all your frontend problems</p>
 
             <div className="project-card-bottom-layer">
-              <input type="button" id="project-button" value="Open on GitHub" />
+                <input type="button" id="project-button" className="PrimaryButton" value="Open on GitHub" />
               <p className="project-tech-stack">
                 CSS/SCSS
               </p>

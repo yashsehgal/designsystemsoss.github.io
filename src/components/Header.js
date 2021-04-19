@@ -16,7 +16,7 @@ const Header =() => {
       <div className="header_option_container">
         <ul className="header-option-list">
           <li className="header-option"><a href="/community">Home</a></li>
-          <li className="header-option"><a href="/community/projects">Our Projects</a></li>
+          <li className="header-option"><a href="/community/projects/">Our Projects</a></li>
           <li className="header-option"><a>Events</a></li>
           <li className="header-option"><a>Join TDS</a></li>
           <li className="header-option"><a href="https://www.github.com/DesignSystemsOSS" target="_blank">GitHub</a></li>
