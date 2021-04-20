@@ -12,16 +12,16 @@ const Footer = () => {
           <p className="footer-option-title">Community</p>
           <ul className="footer-option-list">
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Open Source</a>
+              <a href="#" className="footer-option-link">Open Source</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Contributing</a>
+              <a href="#" className="footer-option-link">Contributing</a>
             </li>
             <li className="footer-option">
               <a href="https://www.github.com/DesignSystemsOSS" className="footer-option-link">GitHub</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Discord Server</a>
+              <a href="#" className="footer-option-link">Discord Server</a>
             </li>
           </ul>
         </div>
@@ -38,10 +38,10 @@ const Footer = () => {
               <a href="/community/projects" className="footer-option-link">Our Projects</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Events</a>
+              <a href="#" className="footer-option-link">Events</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Join The DesignSystems</a>
+              <a href="#" className="footer-option-link">Join The DesignSystems</a>
             </li>
             <li className="footer-option">
               <a href="https://www.github.com/DesignSystemsOSS" className="footer-option-link">GitHub</a>
@@ -79,7 +79,7 @@ const Footer = () => {
         
         {/* Logo + Copyright Line : Container */}
         <div className="footer-lower-left-container">
-          <img src={Logo} alt="logo" className="logo" />
+          <img src={Logo} alt="logo" className="logo" alt="logo" />
           <span className="footer-copyright-line">
             &copy; 2021 The DesignSystems. All rights reserved.
           </span>
@@ -92,7 +92,7 @@ const Footer = () => {
             <i className="fab fa-linkedin" id="footer-social-icons"></i>
           </a>
 
-          <a href="" className="footer-lower-social-icon-link">
+          <a href="#" className="footer-lower-social-icon-link">
             <i className="fab fa-discord" id="footer-social-icons"></i>
           </a>
 

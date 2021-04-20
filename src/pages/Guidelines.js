@@ -24,7 +24,7 @@ const Guidelines = () => {
         Just go to the main page of this project and click the fork button at
         the top-right section.
       </p>
-      <img className="image" className="image" src={Fork}/>
+      <img className="image" className="image" src={Fork} alt="fork-demo-image" />
       <h3 className="sub-head1">Step 2: Clone the forked repository to your system</h3>
       <p className="general-text">
         Now you need to clone the forked repository to your system and then all
@@ -63,7 +63,7 @@ const Guidelines = () => {
         usability. There are some type of issues which are listed in the
         screenshot below.
       </p>
-      <img className="image" className="image" src={Issue}/>
+      <img className="image" className="image" src={Issue} alt="issues-demo-image" />
       <p className="general-text">
         All the issues have pre-designed content template. If you have selected{" "}
         <a className="special-text">Bug Report</a> issue type then precisely
@@ -164,7 +164,7 @@ const Guidelines = () => {
           message/notification like this.
         </p>
       </ol>
-      <img className="image" src={Notification}/>
+      <img className="image" src={Notification} alt="pr-notification-demo-image" />
       <p className="general-text">
         Click of the Green Coloured
         <a className="special-text">Compare & Pull Request</a> Button`
@@ -174,18 +174,18 @@ const Guidelines = () => {
         message in order to support your changes. For example, The one given
         below
       </p>
-      <img className="image" src={Message}/>
+      <img className="image" src={Message} alt="commit-message-demo-image" />
       <p className="general-text">
         Also, Don't forget to request a review from our project maintainers.
         Select to at least 1-2 project maintainers to review your Pull Request.
         Just like this.
       </p>
-      <img className="image" src= {Review}/>
+      <img className="image" src= {Review} alt="request-review-demo-image" />
       <p className="general-text">
         All set! Submit your PR. Click the{" "}
         <a className="special-text">Create Pull Request button</a>
       </p>
-      <img className="image" src={Submit} />
+      <img className="image" src={Submit} alt="submit-pull-request-demo-image" />
       <p className="general-text">
         Then wait for the checks, and the discuss the stuff if required with our
         project maintainers and after all the checks we'll merge your Pull

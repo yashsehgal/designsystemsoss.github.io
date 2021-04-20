@@ -7,7 +7,7 @@ const Header =() => {
     <div className="Header">
       <a href="/community">
         <div className="header-left-container">
-          <img src={Logo} alt="logo" className="logo" />
+          <img src={Logo} alt="logo" className="logo" alt="logo"/>
           <span className="header-logo-line">
             The DesignSystems
           </span>
