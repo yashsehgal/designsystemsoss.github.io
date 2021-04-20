@@ -42,7 +42,7 @@ const Guidelines = () => {
         </li>
       </ol>
       <h4 className="sub-head2">For windows:</h4>
-      <p className="code">C:\user\Desktop\opensource></p>
+      <p className="code">C:\user\Desktop\opensource{">"}</p>
       <h4 className="sub-head2">For Mac (Terminal):</h4>
       <p className="code">username's-Mac:~desktop/opensource$</p>
       <h4 className="sub-head2">then write the command given below:</h4>
@@ -124,7 +124,7 @@ const Guidelines = () => {
       <p className="general-text">Go to your terminal again, and write the commands mentioned below.</p>
       <ol>
         <li className="general-list"> First you need to add your changes to the Staging area.</li>
-        <p className="code">*CHANGES*</p>
+        <p className="code">git add {"<"}FILENAME_WHERE_YOUR_CODE_CHANGES_ARE{">"}</p>
         <p className="general-text">If you want to add everything at the time then just write</p>
 
         <p className="code">git add .</p>
@@ -135,7 +135,7 @@ const Guidelines = () => {
 
         <li className="general-list"> Commit your code changes with a short(informative) message</li>
 
-        <p className="code">*CHANGES</p>
+        <p className="code">git commit -m "{"<"}A SHORT MESSAGE /LINE EXPLAINING YOUR CODE CHANGES{">"} {"<"}ISSUE_TAG_IF_POSSIBLE{">"}"</p>
         <p className="general-text">
           for an example, you have changed the CSS Properties for the Header and
           the issue-tag was #123 then the proper way to commit your code changes
@@ -195,6 +195,9 @@ const Guidelines = () => {
 
 
       {/* END OF HOW TO CONTRIBUTE */}
+
+
+
       <h2 id="code-of-conduct">Code of Conduct</h2>
       <h3 className="sub-head1">Our Pledge:</h3>
       <p className="general-text">
@@ -298,7 +301,7 @@ const Guidelines = () => {
       {/* END OF CODE OF CONDUCT*/}
 
 
-      <h2 id="licence">Licence</h2>
+      <h2 id="license">License</h2>
       <p className="general-text">
         <h4 className="sub-head2">
       

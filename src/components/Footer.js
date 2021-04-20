@@ -55,19 +55,19 @@ const Footer = () => {
           <p className="footer-option-title">Guidelines</p>
           <ul className="footer-option-list">
             <li className="footer-option">
-              <a href="/" className="footer-option-link">How to Contribute</a>
+              <a href="/community/guidelines#contribute" className="footer-option-link">How to Contribute</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Code of Conduct</a>
+              <a href="/community/guidelines#code-of-conduct" className="footer-option-link">Code of Conduct</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">License</a>
+              <a href="/community/guidelines#license" className="footer-option-link">License</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Rules</a>
+              <a href="/community/guidelines#rules" className="footer-option-link">Rules</a>
             </li>
             <li className="footer-option">
-              <a href="/" className="footer-option-link">Community Measures</a>
+              <a href="/community/guidelines#community-measures" className="footer-option-link">Community Measures</a>
             </li>
           </ul>
         </div>
