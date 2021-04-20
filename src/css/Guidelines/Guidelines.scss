@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+
+.Guidelines{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#how-to-contribute,#code-of-conduct,#licence,#rules,#community-measures{
+font-family: var(--tds-font-poppins);
+}
+
+#how-to-contribute #code-of-conduct #licence #rules #community-measures :hover{
+    color: rgb(83, 178, 255);
+    transition: ease-in-out 0.2s;
+}
+.sub-head1{
+    
+    font-family: var(--tds-font-poppins);
+}
+
+
+.general-text{
+    font-family: var(--tds-font-poppins);
+}
+.general-list{
+    font-family: var(--tds-font-poppins);
+}
+
+.sub-head2{
+    font-family: var(--tds-font-poppins);
+}
+
+.code{
+    font-family: JetBrains mono, 'Monospace';
+    background-color: rgb(228, 226, 226);
+    padding: 1em;
+     border-radius:15px ;
+    
+}
+
+.special-text{
+    background-color: #494949;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    color: #C9D1D9;
+    padding: 0.2em;
+    border-radius: 5px;
+}
+
+.sub-head3{
+    font-family: var(--tds-font-poppins);
+}
+
+.image{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// h2{
+//     font-family: var(--tds-font-poppins);
+//     margin-left: 1em;
+// }
+// h3{
+//     font-family: var(--tds-font-poppins);
+//     margin-left: 3em;
+    
+// }
+// h5{
+//     font-family: var(--tds-font-poppins);
+//     // margin-left: 4em;
+//     // margin-top: 2em;
+//     // margin-bottom: 2em;
+//     margin: 2em;
+// }
+// li{
+//     font-family: var(--tds-font-poppins);
+//     font-size: 14px;
+// }
+// ul{
+//     margin: 2em;
+// }
+
+
+// p{
+//     font-family: var(--tds-font-poppins);
+//     margin: 2em 2em 2em 3em;
+// }
+
+// .page-headline{
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// .code{
+//     font-family: 'JetBrains Mono', monospace;
+//     width: 100%;
+//     background-color: rgb(139, 139, 139);
+// }
+// .special-text{
+//     background-color: grey;
+//     color: rgb(71, 10, 10);
+//     padding: 0.5em;
+//     border-radius:14px;
+// }

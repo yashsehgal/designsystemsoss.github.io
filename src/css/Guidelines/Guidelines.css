@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+.Guidelines {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#how-to-contribute, #code-of-conduct, #licence, #rules, #community-measures {
+  font-family: var(--tds-font-poppins);
+}
+
+#how-to-contribute #code-of-conduct #licence #rules #community-measures :hover {
+  color: #53b2ff;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+.sub-head1 {
+  font-family: var(--tds-font-poppins);
+}
+
+.general-text {
+  font-family: var(--tds-font-poppins);
+}
+
+.general-list {
+  font-family: var(--tds-font-poppins);
+}
+
+.sub-head2 {
+  font-family: var(--tds-font-poppins);
+}
+
+.code {
+  font-family: JetBrains mono, 'Monospace';
+  background-color: #e4e2e2;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.special-text {
+  background-color: #494949;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  color: #C9D1D9;
+  padding: 0.2em;
+  border-radius: 5px;
+}
+
+.sub-head3 {
+  font-family: var(--tds-font-poppins);
+}
+
+.image {
+  width: 50%;
+}
+/*# sourceMappingURL=Guidelines.css.map */
