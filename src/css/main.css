@@ -62,4 +62,16 @@ button:focus, input:focus {
   font-family: var(--tds-font-poppins);
   margin: 0;
 }
+
+#under-development-badge {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: -2em;
+  color: white;
+  background-color: #292929;
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.4em;
+}
 /*# sourceMappingURL=main.css.map */

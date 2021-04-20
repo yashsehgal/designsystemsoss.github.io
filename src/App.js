@@ -13,6 +13,10 @@ function App() {
         <Route path="/community" exact component={Home} />
         <Route path="/community/projects" exact component={Projects} />
       </Router>
+      {/* Under Development Status */}
+      <p id="under-development-badge">
+        Glad to have you here! Currently, This website is Under-Development Phase.
+      </p>
       <Footer />
     </div>
   );

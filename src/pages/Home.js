@@ -1,15 +1,20 @@
 
 import '../css/main.css'
-  
+import Projects from './Projects'
+
 const Home = () => {
   return (
     <div className="Home">
     
-    <h1 className="home-tagline">Lorem epsum Dummy text. This will contain a tagline</h1>
+    <h1 className="home-tagline">Here we are building projects, learn new technologies and contributing to Open Source</h1>
     
     <div className="button_layer">
-      <button className="PrimaryButton">Our Projects</button>
-      <button className="SecondaryButton">Join Today</button>
+      <a href="/community/projects">
+        <button className="PrimaryButton">Our Projects</button>
+      </a>
+      <a href="https://forms.gle/qqM3tZy55GDDcwfC8" target="_blank">
+        <button className="SecondaryButton">Join Today</button>
+      </a>
     </div>
     
 
@@ -17,14 +22,12 @@ const Home = () => {
       <div className="home-about-container">
         <div className="home-about-container-left">
           <h3 className="headline">What is The DesignSystems?</h3>
-          <p className="home-about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.</p>
+          <p className="home-about-content">It's a Community for Developers and Designers or People in general who are like-minded and learning new skills every day. We work on our Open Source Projects such as Eccentric Touch, GetResume and much more are gonna come. We are also trying to promote Open Source Contribution and Giving the upcoming contributors or beginners a space to grow and work in. 
+          <br /><br />
+          
+We are also going to take part in lots of Community Challenges and Open Source Events to promote this Community between our fellow Developers and Designers worldwide. Let's Build Something Great and Together is what we believe in. We are inviting you to Join The DesignSystems Today.
+Get those Green Squares on your GitHub Profile, Work on various Repositories/Projects, Have a chance to collaborate with like-minded folks. You're Welcome!
+          </p>
         </div>
 
         <div className="home-about-container-right">
@@ -149,7 +152,7 @@ const Home = () => {
           </div>
         </div>
 
-
+      
       </div>
     </div>
 
