@@ -48,12 +48,6 @@ test('Contributing option(feature) is working correctly in the Footer Component'
   expect(linkElement).toBeInTheDocument();
 });
 
-test('GitHub option(feature) is working correctly in the Footer Component', () => {
-  render(<Footer />);
-  const linkElement = screen.getByText(/GitHub/i);
-  expect(linkElement).toBeInTheDocument();
-});
-
 test('Discord Server option(feature) is working correctly in the Footer Component', () => {
   render(<Footer />);
   const linkElement = screen.getByText(/Discord Server/i);
