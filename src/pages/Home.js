@@ -1,11 +1,15 @@
 
 import '../css/main.css'
 import Projects from './Projects'
+// import DemoCardComponent from '../components/tds_card_demo.png'
+import DiscordLogo from '../components/DiscordLogo.png'
+import GitHubLogo from '../components/GithubLogo.png'
 
 const Home = () => {
   return (
     <div className="Home">
     
+    <div className="landing-section">
     <h1 className="home-tagline">Here we are building projects, learn new technologies and contributing to Open Source</h1>
     
     <div className="button_layer">
@@ -16,8 +20,7 @@ const Home = () => {
         <button className="SecondaryButton">Join Today</button>
       </a>
     </div>
-    
-
+    </div>
     <div className="home-about-section">
       <div className="home-about-container">
         <div className="home-about-container-left">
@@ -32,6 +35,8 @@ Get those Green Squares on your GitHub Profile, Work on various Repositories/Pro
 
         <div className="home-about-container-right">
           {/* Code for the Illustration here */}
+          <img src={DiscordLogo} id="discord-logo" />
+          <img src={GitHubLogo} id="github-logo" />
         </div>
       </div>  {/** Closing HomeAboutSection */}
     </div>  {/** Closing HomeAboutContainer */}

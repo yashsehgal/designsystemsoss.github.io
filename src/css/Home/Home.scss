@@ -25,13 +25,34 @@
 .home-about-content{
   color: white;
   font-family: var(--tds-font-roboto);
-  width: 40%;
+  width: 58%;
 }
 
 .home-about-container {
   margin-right: auto;
   margin-left: auto;
   max-width: 1400px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.home-about-container-left {
+  float: left;
+}
+
+.home-about-container-right {
+  float: right;
+  display: flex;
+}
+
+#discord-logo {
+  width: 300px;
+}
+
+#github-logo {
+  width: 300px;
+  filter: invert(100%);
 }
 
 .home-projects-container {
@@ -50,3 +71,4 @@
   margin-top: 2em;
   box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.244);
 }
+

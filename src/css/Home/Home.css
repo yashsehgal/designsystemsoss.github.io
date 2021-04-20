@@ -26,13 +26,41 @@
 .home-about-content {
   color: white;
   font-family: var(--tds-font-roboto);
-  width: 40%;
+  width: 58%;
 }
 
 .home-about-container {
   margin-right: auto;
   margin-left: auto;
   max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.home-about-container-left {
+  float: left;
+}
+
+.home-about-container-right {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#discord-logo {
+  width: 300px;
+}
+
+#github-logo {
+  width: 300px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 .home-projects-container {
