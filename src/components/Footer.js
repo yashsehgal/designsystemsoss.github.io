@@ -1,8 +1,11 @@
 
 import Logo from './logo-github.jpg';
+import { HashRouter, Route, Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
+    <HashRouter basename="/" >
     <div className="Footer">
       <div className="footer-upper-container">
         
@@ -32,10 +35,14 @@ const Footer = () => {
           <p className="footer-option-title">Site Map</p>
           <ul className="footer-option-list">
             <li className="footer-option">
-              <a href="/community" className="footer-option-link">Home</a>
+              <Link to="/">
+                Home
+              </Link>
             </li>
             <li className="footer-option">
-              <a href="/community/projects" className="footer-option-link">Our Projects</a>
+              <Link to="/projects">
+                Our Projects
+              </Link>
             </li>
             <li className="footer-option">
               <a href="#" className="footer-option-link">Events</a>
@@ -110,6 +117,7 @@ const Footer = () => {
           </a>
         </p>
     </div>
+    </HashRouter>
   )
 };
 
