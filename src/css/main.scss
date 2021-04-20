@@ -2,16 +2,16 @@
 @import url('Footer/Footer.css');
 @import url('Home/Home.css');
 @import url('Projects/Projects.css');
-
+@import url('Guidelines/Guidelines.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /// Google Fonts - Roboto (sans-serif)
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'); /// awesome fonts-icons
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /// Google Fonts - Poppins (sans-serif)
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');  /// Google Fonts - JetBrains Mono
 
 :root {
   --tds-font-roboto: "Roboto", sans-serif;
   --tds-font-poppins: "Poppins", sans-serif;
-
+  --tds-font-code: "JetBrains", monospace;
   --tds-black: #292929;
 }
 
