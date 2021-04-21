@@ -1,11 +1,15 @@
 
 import Logo from './logo-github.jpg';
 import { HashRouter, Route, Link } from "react-router-dom";
+import Guidelines from '../pages/Guidelines';
 
 
 const Footer = () => {
   return (
     <HashRouter basename="/" >
+
+      <Route exact path="/guidelines" component={Guidelines} />
+
     <div className="Footer">
       <div className="footer-upper-container">
         
@@ -62,19 +66,19 @@ const Footer = () => {
           <p className="footer-option-title">Guidelines</p>
           <ul className="footer-option-list">
             <li className="footer-option">
-              <a href="/community/guidelines#contribute" className="footer-option-link">How to Contribute</a>
+              <a href="/guidelines/#guidelines?id=contribute" className="footer-option-link">How to Contribute</a>
             </li>
             <li className="footer-option">
-              <a href="/community/guidelines#code-of-conduct" className="footer-option-link">Code of Conduct</a>
+                <a href="/guidelines/#guidelines#code-of-conduct" className="footer-option-link">Code of Conduct</a>
             </li>
             <li className="footer-option">
-              <a href="/community/guidelines#license" className="footer-option-link">License</a>
+                <a href="/guidelines/#guidelines#license" className="footer-option-link">License</a>
             </li>
             <li className="footer-option">
-              <a href="/community/guidelines#rules" className="footer-option-link">Rules</a>
+                <a href="/guidelines/#guidelines#rules" className="footer-option-link">Rules</a>
             </li>
             <li className="footer-option">
-              <a href="/community/guidelines#community-measures" className="footer-option-link">Community Measures</a>
+              <a href="/guidelines/#guidelines#community-measures" className="footer-option-link">Community Measures</a>
             </li>
           </ul>
         </div>
@@ -112,11 +116,14 @@ const Footer = () => {
 
       </div>      { /** End of Footer Lower Container */  }
         <p className="footer-credits-line">The Website is developed with 💜 by 
-          <a id="footer-website-link" href="/community">
+          <a id="footer-website-link" href="/">
             The DesignSystems Community
           </a>
         </p>
     </div>
+
+    
+
     </HashRouter>
   )
 };
