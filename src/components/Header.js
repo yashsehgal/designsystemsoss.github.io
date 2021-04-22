@@ -19,9 +19,9 @@ const Header = function Header() {
               <Link to="/">
                 <li className="HeaderComponent-HeaderOption">Home</li>
               </Link>
-              <Link to="/projects">
+              {/* <Link to="/projects">
                 <li className="HeaderComponent-HeaderOption">Projects</li>
-              </Link>
+              </Link> */}
               <Link to="/events">
                 <li className="HeaderComponent-HeaderOption">Events</li>
               </Link>
