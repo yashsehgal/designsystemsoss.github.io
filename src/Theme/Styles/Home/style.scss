@@ -1,0 +1,75 @@
+// Style Sheet for Homepage
+
+
+// .Home-LandingPageContainer {
+//   background: url('../../../Assets/Images/green_squares.svg');
+//   background-repeat: no-repeat;
+//   background-position-x: right;
+// }
+
+.Home-TechContainer-TechLayer {
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.TechCard {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 6px;
+  box-shadow: var(--tds-shadow-semi-light);
+  text-align: center;
+  margin-right: 2em;
+  width: 10%;
+  cursor: inherit;
+}
+
+.TechCard:hover {
+  box-shadow: none;
+  outline: rgb(236, 236, 236) solid;
+  outline-width: 2px;
+}
+
+.TechCard-TechTitle {
+  font-weight: 600;
+  font-family: var(--tds-font-secondary);
+}
+
+.TechLogo {
+  font-size: 52px;
+  color: var(--tds-black);
+}
+
+.Home-ContributingSection {
+  text-align: center;
+}
+
+.Home-ContributingCard {
+  margin-top: 3em;
+  margin-right: auto;
+  margin-left: auto;
+  width: 56%;
+  text-align: center;
+}
+
+.ContributionCard-Title {
+  margin-top: 1em;
+}
+
+.Home-ContributingCard  #home-button_layer {
+  text-align: center;
+}
+
+.Home-ContributingCard #home-button_layer button {
+  text-align: center; 
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+#home-button_layer {
+  display: inline-flex;;
+}

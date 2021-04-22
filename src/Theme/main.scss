@@ -6,10 +6,17 @@
 @import url('./General/Header.css');
 
 
+/// Importing Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/// Importing external css libraries
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'); /// awesome fonts-icons
+
+
 :root {
   --tds-black: #292929;
   --tds-white: #ffffff;
-  --tds-blue: #4690ff;
+  --tds-blue: #4659ff;
   --tds-gray: #979797;
   --tds-font-primary: "Poppins", sans-serif;
   --tds-font-secondary: "Work Sans", sans-serif;
@@ -48,9 +55,73 @@ h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   border: none;
   border-radius: 4px;
+  align-items: center;
+  display: flex;
+  box-shadow: var(--tds-shadow-semi-light);
 }
 
 .PrimaryButton:hover {
   background-color: var(--tds-black);
   cursor: pointer;
+  box-shadow: none;
+}
+
+.SecondaryButton {
+  background-color: var(--tds-white);
+  border: none;
+  font-weight: inherit;
+  font-family: inherit;
+  padding: 0.4em;
+  display: flex;
+  align-items: center;
+  box-shadow: var(--tds-shadow-thin);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.SecondaryButton:hover {
+  box-shadow: none;
+  outline: rgb(223, 223, 223) solid;
+  outline-width: 3px;
+}
+
+
+.massive-headline {
+  font-size: 42px;
+  width: 700px;
+}
+
+#button_layer {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+}
+
+#button_layer button {
+  margin-right: 2em;
+}
+
+button #icon {
+  font-size: 24px;
+  margin: 6px;
+}
+
+.Container {
+  margin-top: 12em;
+}
+
+.highlight-underline {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: #4659ff inset;
+  border-width: 4px;
+}
+
+.content {
+  width: 800px;
+}
+
+.headline {
+  text-align: center;
 }
