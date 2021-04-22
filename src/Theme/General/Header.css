@@ -1,0 +1,52 @@
+.Header {
+  padding: 0.4em;
+  background-color: var(--tds-white);
+  overflow: hidden;
+  -webkit-box-shadow: var(--tds-shadow-light);
+          box-shadow: var(--tds-shadow-light);
+  opacity: 86%;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2em;
+}
+
+.HeaderComponent-Logo {
+  float: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.LogoImage {
+  width: 60px;
+  border-radius: 100%;
+  margin-right: 0.5em;
+}
+
+.HeaderComponent-HeaderOption {
+  list-style: none;
+  margin-right: 2em;
+}
+
+.HeaderComponent-HeaderOption:hover {
+  color: var(--tds-gray);
+}
+
+.HeaderComponent-OptionList {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.HeaderComponent-Options {
+  float: right;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,41 @@
+
+.Header {
+  padding: 0.4em;
+  background-color: var(--tds-white);
+  overflow: hidden;
+  box-shadow: var(--tds-shadow-light);
+  opacity: 86%;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.HeaderComponent-Logo {
+  float: left;
+  align-items: center;
+  display: flex;
+}
+
+.LogoImage {
+  width: 60px;
+  border-radius: 100%;
+  margin-right: 0.5em;
+}
+
+.HeaderComponent-HeaderOption {
+  list-style: none;
+  margin-right: 2em;
+}
+
+.HeaderComponent-HeaderOption:hover {
+  color: var(--tds-gray);
+}
+
+.HeaderComponent-OptionList {
+  display: inline-flex;
+  align-items: center;
+}
+
+.HeaderComponent-Options {
+  float: right;
+}

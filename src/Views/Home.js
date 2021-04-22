@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react';
 
-const Footer = function Footer() {
+const Home = function Home() {
   return (
-    <div className="Footer">
-
+    <div className="Home">
+      
     </div>
   )
 };
 
-export default Footer;
+export default Home;

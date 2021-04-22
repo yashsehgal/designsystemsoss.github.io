@@ -1,44 +1,46 @@
-
-import '../css/main.css';
-import Logo from './logo-github.jpg';
+import React from 'react';
+import ReactDOM from 'react';
 import { HashRouter, Route, Link } from "react-router-dom";
-import Home from '../pages/Home';
-import Projects from '../pages/Projects'
+import '../Theme/main.css'
 
-const Header =() => {
+
+const Header = function Header() {
   return (
-    <HashRouter basename="/community">
-      <div className="Header">
-        <Link to="/">
-          <div className="header-left-container">
-            <img src={Logo} alt="logo" className="logo" alt="logo"/>
-            <span className="header-logo-line">
-              The DesignSystems
-            </span>
-          </div>
-        </Link>
-        <div className="header_option_container">
-          <ul className="header-option-list">
-            <li className="header-option">
+    <div className="Header">
+
+      <div className="page-body">
+        <div className="HeaderComponent-Logo">
+          <img src="https://avatars.githubusercontent.com/u/77277573?s=200&v=4" alt="LogoImage" className="LogoImage" />
+          <a className="LogoText">The DesignSystems</a>
+        </div>
+        <div className="HeaderComponent-Options">
+          <ul className="HeaderComponent-OptionList">
+            <HashRouter basename="/">
               <Link to="/">
-                Home
+                <li className="HeaderComponent-HeaderOption">Home</li>
               </Link>
-            </li>
-            <li className="header-option">
               <Link to="/projects">
-                Our Projects
+                <li className="HeaderComponent-HeaderOption">Projects</li>
               </Link>
-            </li>
-            <li className="header-option"><a>Events</a></li>
-            <li className="header-option"><a href="https://forms.gle/qqM3tZy55GDDcwfC8" target="_blank">Join TDS</a></li>
-            <li className="header-option"><a href="https://www.github.com/DesignSystemsOSS" target="_blank">GitHub</a></li>
+              <Link to="/events">
+                <li className="HeaderComponent-HeaderOption">Events</li>
+              </Link>
+              <Link to="/guidelines">
+                <li className="HeaderComponent-HeaderOption">Guidelines</li>
+              </Link>
+              <Link to="/contact">
+                <li className="HeaderComponent-HeaderOption">Contact</li>
+              </Link>
+              <Link to="/join-tds">
+                <li className="HeaderComponent-HeaderOption">
+                  <input type="button" className="HeaderComponent-Button PrimaryButton" value="Join The DesignSystems" />
+                </li>
+              </Link>
+            </HashRouter>
           </ul>
         </div>
       </div>
-
-      <Route exact path="/" component={Home} />
-      <Route exact path="/projects" component={Projects} />
-    </HashRouter>
+    </div>
   )
 };
 

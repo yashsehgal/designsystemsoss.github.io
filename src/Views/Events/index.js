@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react';
 
-const Footer = function Footer() {
+const Events = function Events() {
   return (
-    <div className="Footer">
+    <div className="Events">
 
     </div>
   )
 };
 
-export default Footer;
+export default Events;

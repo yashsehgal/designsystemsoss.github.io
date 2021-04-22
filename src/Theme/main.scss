@@ -1,0 +1,56 @@
+@import url('./Styles/Home/style.css');
+@import url('./Styles/Projects/style.css');
+@import url('./Styles/Contact/style.css');
+@import url('./Styles/Guidelines/style.css');
+@import url('./Styles/Events/style.css');
+@import url('./General/Header.css');
+
+
+:root {
+  --tds-black: #292929;
+  --tds-white: #ffffff;
+  --tds-blue: #4690ff;
+  --tds-gray: #979797;
+  --tds-font-primary: "Poppins", sans-serif;
+  --tds-font-secondary: "Work Sans", sans-serif;
+
+  --tds-shadow-light: 2px 4px 20px rgba(0, 0, 0, 0.100);
+  --tds-shadow-semi-light: 2px 4px 20px rgba(0, 0, 0, 0.200);
+  --tds-shadow-thin: 1px 4px 18px rgba(0, 0, 0, 0.200); 
+}
+
+body {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.page-body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+}
+
+.PrimaryButton {
+  background-color: var(--tds-blue);
+  color: white;
+  padding: 0.4em;
+  font-family: inherit;
+  border: none;
+  border-radius: 4px;
+}
+
+.PrimaryButton:hover {
+  background-color: var(--tds-black);
+  cursor: pointer;
+}
