@@ -26,7 +26,7 @@ class __LinkDetails {
       }
     ]
   }
-}
+};
 
 const LinkDetails = new __LinkDetails();
 export default LinkDetails;
