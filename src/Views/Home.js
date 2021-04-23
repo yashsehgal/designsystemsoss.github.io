@@ -1,9 +1,9 @@
 
-import ReactDOM from 'react';
+
 import GreenSquares from '../Assets/Images/green_squares.svg';
 import LinkDetails from '../Assets/LinkDetails';
 
-import React, { lazy, Suspense } from 'react';
+import React from 'react';
 import { Switch, Route, HashRouter, Link } from 'react-router-dom';
 
 import Projects from '../Views/Projects/index';
@@ -157,14 +157,7 @@ const Home = function Home() {
         </div>
 
         {/* Homepage - Our Projects Container */}
-        <div className="Home-ProjectsContainer Container">
-          <div className="Home-ProjectsContainer page-body">
-            <h2 className="headline">
-              Our Projects
-            </h2>
-            <Projects />
-          </div>
-        </div>
+       <Projects />
 
       </div>
     </HashRouter>

@@ -1,33 +1,140 @@
 
 import React from 'react';
-import ReactDOM from 'react';
-import { Container, Grid, Header, List } from "semantic-ui-react";
-import LinkDetails from '../../Assets/LinkDetails';
+import { Switch, Route, HashRouter, Link } from 'react-router-dom';
 
-const ProjectDetails = LinkDetails.getProjectData();
 
 const Projects = function Projects() {
   return (
     <div className="Projects">
-      <Container>
-        <Grid>
-          <Grid.Row>
-            <Grid.Column>
-              <List>
-                {ProjectDetails.map(data => {
-                  return (
-                    <List.Item key={data.id}>
-                      <List.Content>
-                        {data.project_title}
-                      </List.Content>
-                    </List.Item>
-                  );
-                })}
-              </List>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
-      </Container>
+      {/* Projects Container*/}
+
+      <div className="Home-ProjectsContainer Container">
+        <h2 className="headline">
+              Our Projects
+          </h2>
+        <div className="Home-ProjectsLayer">
+          
+          {/* Card Component */}
+          <div className="ProjectCard">
+            <div className="ProjectCard-ImageContainer">
+              {/* Image for the Project*/}
+            </div>
+            <div className="ProjectCard-CardBody">
+              <p className="ProjectCard-title">
+                Eccentric Touch
+              </p>
+              <p className="ProjectCard-Description">
+                Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)
+              </p>
+
+              <button className="PrimaryButton">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Card Component */}
+          <div className="ProjectCard">
+            <div className="ProjectCard-ImageContainer">
+              {/* Image for the Project*/}
+            </div>
+            <div className="ProjectCard-CardBody">
+              <p className="ProjectCard-title">
+                Eccentric Touch
+              </p>
+              <p className="ProjectCard-Description">
+                Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)
+              </p>
+
+              <button className="PrimaryButton">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Card Component */}
+          <div className="ProjectCard">
+            <div className="ProjectCard-ImageContainer">
+              {/* Image for the Project*/}
+            </div>
+            <div className="ProjectCard-CardBody">
+              <p className="ProjectCard-title">
+                Eccentric Touch
+              </p>
+              <p className="ProjectCard-Description">
+                Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)
+              </p>
+
+              <button className="PrimaryButton">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <div className="Home-ProjectsLayer">
+
+
+        {/* Card Component */}
+          <div className="ProjectCard">
+            <div className="ProjectCard-ImageContainer">
+              {/* Image for the Project*/}
+            </div>
+            <div className="ProjectCard-CardBody">
+              <p className="ProjectCard-title">
+                Eccentric Touch
+              </p>
+              <p className="ProjectCard-Description">
+                Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)
+              </p>
+
+              <button className="PrimaryButton">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Card Component */}
+          <div className="ProjectCard">
+            <div className="ProjectCard-ImageContainer">
+              {/* Image for the Project*/}
+            </div>
+            <div className="ProjectCard-CardBody">
+              <p className="ProjectCard-title">
+                Eccentric Touch
+              </p>
+              <p className="ProjectCard-Description">
+                Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)
+              </p>
+
+              <button className="PrimaryButton">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Card Component */}
+          <div className="ProjectCard">
+            <div className="ProjectCard-ImageContainer">
+              {/* Image for the Project*/}
+            </div>
+            <div className="ProjectCard-CardBody">
+              <p className="ProjectCard-title">
+                Eccentric Touch
+              </p>
+              <p className="ProjectCard-Description">
+                Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)
+              </p>
+
+              <button className="PrimaryButton">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
   )
 };

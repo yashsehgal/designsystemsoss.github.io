@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react';
 
 const Contact = function Contact() {
   return (

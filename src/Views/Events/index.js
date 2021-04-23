@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react';
 
 const Events = function Events() {
   return (

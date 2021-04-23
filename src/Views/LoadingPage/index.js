@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react';
 import { HashRouter, Route, Link } from "react-router-dom";
 
 const LoadingPage = function LoadingPage() {
