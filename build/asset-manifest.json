@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/community/static/css/main.435538f3.chunk.css",
+    "main.js": "/community/static/js/main.b3cc9522.chunk.js",
+    "main.js.map": "/community/static/js/main.b3cc9522.chunk.js.map",
+    "runtime-main.js": "/community/static/js/runtime-main.d035f7db.js",
+    "runtime-main.js.map": "/community/static/js/runtime-main.d035f7db.js.map",
+    "static/js/2.df6689d3.chunk.js": "/community/static/js/2.df6689d3.chunk.js",
+    "static/js/2.df6689d3.chunk.js.map": "/community/static/js/2.df6689d3.chunk.js.map",
+    "static/js/3.c78b7f94.chunk.js": "/community/static/js/3.c78b7f94.chunk.js",
+    "static/js/3.c78b7f94.chunk.js.map": "/community/static/js/3.c78b7f94.chunk.js.map",
+    "index.html": "/community/index.html",
+    "static/css/main.435538f3.chunk.css.map": "/community/static/css/main.435538f3.chunk.css.map",
+    "static/js/2.df6689d3.chunk.js.LICENSE.txt": "/community/static/js/2.df6689d3.chunk.js.LICENSE.txt",
+    "static/media/green_squares.2256914c.svg": "/community/static/media/green_squares.2256914c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d035f7db.js",
+    "static/js/2.df6689d3.chunk.js",
+    "static/css/main.435538f3.chunk.css",
+    "static/js/main.b3cc9522.chunk.js"
+  ]
+}
