@@ -73,3 +73,23 @@
 #home-button_layer {
   display: inline-flex;;
 }
+
+@media screen and (max-width: 900px) {
+  .Home-TechContainer-TechLayer {
+    display: block;
+  }
+
+  .Home-TechContainer-TechLayer .TechCard {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 85%;
+  }
+  .Home-ContributeSection-CardBG {
+    display: none;
+  }
+
+  #button_layer {
+    display: block;
+  }
+}

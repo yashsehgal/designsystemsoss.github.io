@@ -1,0 +1,34 @@
+
+
+.Home-ProjectsLayer {
+  align-items: center;
+  display: flex;
+}
+
+.ProjectCard {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  width: 28%;
+  background-color: white;
+  box-shadow: var(--tds-shadow-light);
+}
+
+.ProjectCard .ProjectCard-CardBody {
+  padding: 2em;
+}
+
+.ProjectCard:hover {
+  box-shadow: none;
+  outline: rgb(236, 236, 236) solid;
+  outline-width: 2px;
+}
+
+@media screen and (max-width: 1000px) {
+  .Home-ProjectsLayer {
+    display: block;
+  }
+  .ProjectCard {
+    width: 80%;
+  }
+}
