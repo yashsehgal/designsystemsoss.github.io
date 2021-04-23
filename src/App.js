@@ -3,18 +3,17 @@
 // Importing components - header and Footer Components for static display
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import ReactDOM from 'react';
-import React, { lazy, Suspense } from 'react';
+import React, { Suspense } from 'react';
 import { Switch, Route, HashRouter } from 'react-router-dom';
 
 
 // Importing Page/View Modules
-import Home from './Views/Home'
-import Projects from './Views/Projects/index'
-import Guidelines from './Views/Guidelines/index'
-import Events from './Views/Events/index'
-import Contact from './Views/Contact/index'
-import LoadingPage from './Views/LoadingPage/index'
+import Home from './Views/Home';
+import Projects from './Views/Projects/index';
+import Guidelines from './Views/Guidelines/index';
+import Events from './Views/Events/index';
+import Contact from './Views/Contact/index';
+import LoadingPage from './Views/LoadingPage/index';
 
 function App() {
   return (
