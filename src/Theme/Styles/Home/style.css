@@ -88,9 +88,6 @@
   }
   #button_layer {
     display: block;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,16 @@
+.Projects {
+  background-color: var(--tds-blue);
+}
+
+.Home-ProjectsContainer {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.Projects .headline {
+  color: white;
+}
+
 .Home-ProjectsLayer {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -12,9 +25,10 @@
   margin-left: auto;
   margin-top: 2em;
   width: 28%;
+  border-radius: 4px;
   background-color: white;
-  -webkit-box-shadow: var(--tds-shadow-light);
-          box-shadow: var(--tds-shadow-light);
+  -webkit-box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.319);
+          box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.319);
 }
 
 .ProjectCard .ProjectCard-CardBody {
