@@ -8,7 +8,7 @@ const Projects = function Projects() {
     <div className="Projects">
       {/* Projects Container*/}
 
-      <div className="Home-ProjectsContainer Container">
+      <div className="Home-ProjectsContainer page-body Container">
         <h2 className="headline">
               Our Projects
           </h2>
